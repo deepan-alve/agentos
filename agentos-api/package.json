@@ -1,0 +1,16 @@
+{
+  "name": "agentos-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --enable-source-maps src/server.js",
+    "dev": "node --enable-source-maps --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "5.0.1",
+    "cors": "2.8.5"
+  },
+  "engines": { "node": ">=22" }
+}

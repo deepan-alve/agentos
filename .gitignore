@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+.pnp.*
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+*service-account*.json
+*appwrite-creds*.json
+
+# build output
+dist/
+build/
+.expo/
+web-build/
+*.tsbuildinfo
+
+# logs
+.logs/
+*.log
+npm-debug.log*
+
+# os / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
