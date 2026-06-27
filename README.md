@@ -80,6 +80,16 @@ cp .env.example .env.local   # point EXPO_PUBLIC_BROGENT_URL at your LAN IP:4100
 npx expo start               # scan the QR with Expo Go on the same Wi-Fi
 ```
 
+## Related repositories
+
+Part of the same AgentOS / Brogent ecosystem:
+
+- [**brogent-os**](https://github.com/deepan-alve/brogent-os) — the broader agentic mobile OS: every app built by AI, a React Native shell over a multi-agent orchestrator.
+- [**agentos-appstore**](https://github.com/deepan-alve/agentos-appstore) — catalog of installable, mobile-first apps the client browses.
+- [**brogent-marketplace**](https://github.com/deepan-alve/brogent-marketplace) — community marketplace of mini-apps, one folder per app, submitted by PR.
+
+Code generation runs on [**Paperclip**](https://github.com/paperclipai/paperclip) — a third-party agent platform this project integrates with.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). Paperclip and any templates it ships are under their own
